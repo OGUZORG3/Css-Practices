@@ -1,0 +1,36 @@
+#main-footer{
+    background-color: $dark-color;
+    color: #fff;
+    height: 5rem;
+    .footer-content{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 5rem;
+        .social .fab{
+            margin-right: 2rem;
+            border: 2px solid #fff;
+            border-radius: 50%;
+            text-align: center;
+            padding: .6rem;
+            transition: all 1s;
+            &:hover{
+          
+                padding:1rem;
+                border-radius: 10%;
+                &.fa-facebook{
+                    background-color: blue;
+                }
+                &.fa-twitter{
+                    background-color: cyan;
+                }
+                &.fa-instagram{
+                    background-color: darkorchid;
+                }
+                &.fa-youtube{
+                    background-color: red;
+                }
+            }
+        }
+    }
+}

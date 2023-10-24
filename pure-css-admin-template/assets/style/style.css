@@ -1,0 +1,135 @@
+body{
+    margin: 0 auto;
+    background-color: rgb(4, 54, 74);
+}
+h1,h2,h3,h4,h5,h6,p,a{
+    color:rgb(218, 255, 251);
+}
+section h1,
+section h2,
+section h3,
+section h4,
+section h5,
+section h6,
+section p 
+section a{
+    color: rgb(4, 54, 74);
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+header{
+    border-bottom: 3px solid rgb(218, 255, 251);
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    float: right;
+    width: 83%;
+    height: 80px;
+    line-height: 40px;
+    background: linear-gradient(90deg, rgba(23,107,135,1) 0%, rgba(100,204,197,1) 100%);
+    position: relative;
+    border-bottom-right-radius: calc(75px + 5%);
+}
+header .authentication-link{
+    width: 60%;
+    max-height: 40px;
+    position: relative;
+}
+header .authentication-link ul{
+    float: right;
+    list-style: none;
+    padding: 0;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: 10%;
+}
+header .authentication-link ul li{
+    display: inline-block;
+    line-height: 25px;
+    border-right: 1px solid whitesmoke;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+header .authentication-link ul li:last-child{
+    border-right: unset;
+    padding-right: unset;
+}
+header .authentication-link ul li button{
+    color: rgb(218, 255, 251);
+    background-color:rgb(23, 107, 135);
+    border: 0px;
+    border-radius: 10px;
+    padding: 5px;
+    font-size: 15px;
+    font-weight: 900;
+    text-decoration: none;
+}
+nav{
+    float: left;
+    height: calc(100vh - 100px);
+    width: 17%;
+    padding: 0;
+    border-right: 3px solid rgb(218, 255, 251);
+    background: rgb(23,107,135);
+    background: linear-gradient(0deg, rgba(23,107,135,1) 0%, rgba(23,107,135,1) 19%, rgba(100,204,197,1) 50%, rgba(23,107,135,1) 79%, rgba(23,107,135,1) 100%);
+}
+nav .nav-logo{
+    position: relative;
+    text-align: center;
+    margin: 20px auto 0px auto;
+}
+nav .menu{
+    text-align: center;
+    margin: 10px 20px;
+    flex-direction: column;
+} 
+nav .menu div ul{
+    list-style: none;
+    display: block;
+    width: 95%;
+    margin: 5px 0;
+    padding: 5px 15px;
+}
+nav .menu div{
+    display: flex;
+    background-color: rgb(4, 54, 74);
+    justify-content: flex-start;
+    border-radius: 25px;
+}
+nav .menu div ul li a{
+    text-decoration: none;
+    background-color: rgb(23, 107, 135);
+    border: rgb(218, 255, 251) solid 1px;
+    border-radius: 15px;
+    margin: 5px;
+    display: block;
+    width: 100%;
+}
+
+
+footer{
+    border-top: 3px solid rgb(218, 255, 251);
+    text-align: center;
+    background: rgb(23,107,135);
+    background: linear-gradient(90deg, rgba(23,107,135,1) 0%, rgba(25,110,137,1) 30%, rgba(100,204,197,1) 100%);
+    width: 100%;
+    height: 100px;
+    float: left;
+    padding: 0;
+    margin: 0;
+    border-top-right-radius: calc(75px + 5%);
+}
+section{
+    position: relative;
+    float: left;
+    width: 83%;
+    height: calc(100vh - 180px);
+}
+section div{
+    padding: 25px;
+    background-color: rgb(218, 255, 251);
+    width: 95%;
+    height: 90%;
+    margin: 25px 20px;
+}
